@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\михаил\documents\visual studio 2015\projects\проект1\проект1\main.cpp(6): warning C4101: c: неиспользованная локальная переменная
+  Проект1.vcxproj -> c:\users\михаил\documents\visual studio 2015\Projects\Проект1\Debug\Проект1.exe
+  Проект1.vcxproj -> c:\users\михаил\documents\visual studio 2015\Projects\Проект1\Debug\Проект1.pdb (Partial PDB)
