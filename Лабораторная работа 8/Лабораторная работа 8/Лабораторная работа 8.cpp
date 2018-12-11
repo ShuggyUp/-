@@ -14,6 +14,7 @@ int main()
 	char c[2];
 	char S[100];
 	char S0[10];
+	int x;
 	
 	cout << "Enter c " << endl;
 	gets_s(c);
@@ -30,13 +31,13 @@ int main()
 			{
 				S[t + strlen(S0) + 1] = S[t + 1];
 				S[t + 1] = S0[j];
+				x = t;
 			}
 		}
+		i = (x + 1);
 	}
 
-	cout << c << endl;
 	cout << S << endl;
-	cout << S0 << endl;
 
 	system("pause");
 	return 0;
